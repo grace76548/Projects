@@ -1,4 +1,4 @@
-import { BinaryTree, BinaryTreeNode } from "./binary-tree";
+const { BinaryTree, BinaryTreeNode } = require("./binary-tree");
 
 let smallTree;
 let largeTree;

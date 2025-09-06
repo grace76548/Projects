@@ -1,10 +1,10 @@
-let { Tree, TreeNode, sumValues, countEvens, numGreater } = require ("./tree");
+const { Tree, TreeNode } = require("./tree");
 
 let smallTree;
 let largeTree;
 let emptyTree;
 
-function beforeEach() {
+beforeEach(function() {
   emptyTree = new Tree();
 
   // build small tree
@@ -30,7 +30,7 @@ function beforeEach() {
   n7.children.push(n8);
 
   largeTree = new Tree(n);
-};
+});
 
 describe("sumValues", function() {
   it("sums simple trees", function() {

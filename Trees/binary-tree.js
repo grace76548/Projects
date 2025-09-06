@@ -134,7 +134,7 @@ if (node1 === this.root || node2 === this.root) return false;
   /** Further study!
    * serialize(tree): serialize the BinaryTree object tree into a string. */
 
-  static serialize() {
+  static serialize(tree) {
 const values = [];
 
     function traverse(node) {
@@ -154,7 +154,7 @@ const values = [];
   /** Further study!
    * deserialize(stringTree): deserialize stringTree into a BinaryTree object. */
 
-  static deserialize() {
+  static deserialize(stringTree) {
       if (!stringTree) return null;
 
     const values = stringTree.split(" ");

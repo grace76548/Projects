@@ -76,5 +76,3 @@ class Tree {
 module.exports = { 
   Tree, TreeNode };
 
-module.exports = { 
-  sumValues, countEvens, numGreater };
