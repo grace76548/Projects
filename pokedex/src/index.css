@@ -1,0 +1,70 @@
+/* Your Styles Here */
+
+/* https://www.figma.com/colors/cerulean/ */
+
+body {
+  background-image: radial-gradient(circle, lightblue, #007BA7);
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: navy;
+  font-size: 4em;
+  font-family: Andale Mono, monospace;
+  text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+  color: #005F84;
+  font-family: Andale Mono, monospace;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+div {
+  height: 16em;
+  width: 16em;
+  border-radius: 20px;
+  background-color: lightgray;
+  align-items: center;
+  padding-top: 1em;
+  box-shadow: inset 2px 2px 3px rgb(0 0 0 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);  
+}
+
+div.Pokecard {
+  display: grid;
+}
+
+div:hover {
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(-0px);
+  }
+}
+
