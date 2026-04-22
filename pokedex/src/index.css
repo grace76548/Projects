@@ -4,6 +4,7 @@
 
 body {
   background-image: radial-gradient(circle, lightblue, #007BA7);
+  padding: 2em;
 }
 
 h1 {
@@ -34,7 +35,7 @@ img {
   margin: auto;
 }
 
-div {
+.Pokecard {
   height: 16em;
   width: 16em;
   border-radius: 20px;
@@ -42,11 +43,15 @@ div {
   align-items: center;
   padding-top: 1em;
   box-shadow: inset 2px 2px 3px rgb(0 0 0 / 0.6),
-    inset -2px -2px 3px rgb(0 0 0 / 0.6);  
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);    
 }
 
-div.Pokecard {
-  display: grid;
+.Flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4em;
+  gap: 4em;
 }
 
 div:hover {

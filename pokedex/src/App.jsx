@@ -9,6 +9,7 @@ function App () {
     
     return(
         <div>
+            <h1>POKEDEX</h1>
             <Pokedex />
         </div>
     );
