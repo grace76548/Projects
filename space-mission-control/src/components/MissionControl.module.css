@@ -1,0 +1,13 @@
+.filterContainer
+{
+  margin: 20px 0;
+}
+
+.missionContainer
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #ffffff;
+}
